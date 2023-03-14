@@ -3,7 +3,7 @@ package com.firstApp.Example;
 import com.firstApp.Example.game.GameRunner;
 import com.firstApp.Example.game.PacmanGame;
 
-public class AppGamingBasicJava {
+public class App01GamingBasicJava {
     public static void main(String[] args) {
 
         //var game = new SuperContraGame();
