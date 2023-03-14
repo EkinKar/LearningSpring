@@ -1,14 +1,16 @@
 package com.firstApp.Example;
 
 import com.firstApp.Example.game.GameRunner;
-import com.firstApp.Example.game.MarioGame;
+import com.firstApp.Example.game.PacmanGame;
 
 public class AppGamingBasicJava {
     public static void main(String[] args) {
 
-
-        var marioGame = new MarioGame();
-        var gameRunner = new GameRunner(marioGame);
+        //var game = new SuperContraGame();
+        //var game = new MarioGame();
+        var game = new PacmanGame(); // Object creation
+        var gameRunner = new GameRunner(game); // Object creation + wiring of dependencies
+        //Game is a dependency of GameRunner
         gameRunner.run();
     }
 }
